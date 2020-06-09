@@ -27,7 +27,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                    
+                        <form action="" method="post">
                             <?php if ( NULL !== $this->session->flashdata('message')){echo $this->session->flashdata('message');} ?>
                             <div class="card card-plain table-plain-bg">
                                 <div class="card-header ">
@@ -75,8 +75,8 @@
                                 <div class="form-group">
                                     <select name="id_akses" class="form-control">
                                         <option value="">- Pilih -</option>
-                                        <option value="admin" <?=set_value('id_akses') "selected" : null?>>Admin</option>
-                                        <option value="siswa" <?=set_value('id_akses') "selected" : null?>>Siswa</option>
+                                        <option value="1" <?=set_value('id_akses') == 1 ? "selected" : null?>>Admin</option>
+                                        <option value="2" <?=set_value('id_akses') == 2 ? "selected" : null?>>Siswa</option>
                                     </select>
                                     <?=form_error('id_akses')?>
                                 </div>

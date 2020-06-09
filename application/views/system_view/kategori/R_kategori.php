@@ -57,9 +57,9 @@
     <?php endif; ?>
 
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" style="font-size: 15px">
           <a href="<?= base_url(); ?>kategori/tambah" class="btn btn-primary"> Tambah Kategori</a>
-          <h1>Data Kategori</h1>
+          <h1 style="font-size: 30px">Data Kategori</h1>
           <table class="table table-stripped">
             <thead>
               <tr>

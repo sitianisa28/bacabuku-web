@@ -62,9 +62,9 @@ label{
 </head>
   <body>
 
-	<h1>Selamat Datang di Perpustakaan Online <br/></h1>
+	<h1 style="font-family: Apple Chancery">Selamat Datang di Perpustakaan Online <br/></h1>
 
-	<div class="kotak_login">
+	<div class="kotak_login" style="font-family: Apple Chancery">
 		<p class="tulisan_login">Silahkan login</p>
             <center>
                 <img  src="<?php echo base_url(); ?>/assets2/img/logo.png" class="profile-img" alt="logo images" style="height: 90px; width: 90px; border-radius: 50%;	">    
